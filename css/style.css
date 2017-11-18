@@ -1,0 +1,223 @@
+@import url(reset.css);
+
+html, body 
+{
+height: 100%;
+}
+
+body
+	{
+	background: #FBFBFB;
+	}
+
+	.l-wrapper
+		{
+		min-height: 100%;
+		width: 960px;
+		margin: 0 auto;
+		font-family: Georgia;
+		}
+/*				Head				*/
+		.l-header
+			{
+			position: relative;
+			height: 132px;
+			}
+			.b-header__title
+				{
+				padding: 50px 10px 5px 0px;
+				color: #00004d;
+				font-size: 28px;
+				font-weight: bold;
+				text-transform: uppercase;			
+				}
+			.b-header__subtitle
+				{
+				margin-bottom: 5px;
+				margin-top: 5px;
+				color: #808080;
+				font-size: 12px;
+				font-weight: lighter;
+				text-transform: uppercase;
+				}
+			.b-header__text
+				{
+				position: absolute;
+				top: 65px;
+				left: 450px;
+				color: #808080;
+				font-size: 16px;
+				text-transform: uppercase;	
+				}
+			.b-header__logo
+				{
+				position: absolute;
+				right: 0;
+				top: 20px;
+				height: 72px;
+				width: 102px;
+				margin-top: 25px;
+				background-image: url(../images/logo.png);
+				background-position: left top;
+				background-repeat: no-repeat;
+				}
+
+	
+/*			Content			*/
+		.l-content 
+			{
+			position: absolute;
+			margin-top: 15px;
+			height: 426px;
+			width: 960px;
+			background: url(../images/about_fund.jpg);
+			}
+			
+			.l-menu
+				{
+								
+				}
+				
+				.b-menu__top
+					{
+					height: 36px;
+					}
+
+					.b-menu__top-button
+						{
+						display: block;
+						float: left;
+						width: 160px;
+						height: 36px;
+						color: white;
+						font-weight: 600;
+						font-size: 17px;	
+						font-family: Georgia, serif;
+						text-shadow: 0 1px 0 black;
+						line-height: 36px;
+						text-align: center;
+						text-decoration: none;
+						}
+	  					
+						.m-menu__top-button_1
+							{
+							background: linear-gradient(to bottom, #66a3ff, #0066ff);					
+							}
+							.m-menu__top-button_1:hover
+							{
+							background: linear-gradient(to top, #66a3ff, #0066ff);
+							}
+
+						.m-menu__top-button_2
+							{
+							background: linear-gradient(to bottom, #66e0ff, #00ccff);
+							}
+							.m-menu__top-button_2:hover
+							{
+							background: linear-gradient(to top, #66e0ff, #00ccff);
+							}
+
+						.m-menu__top-button_3
+							{
+							background: linear-gradient(to bottom, #33ff99, #00cc66);
+							}
+							.m-menu__top-button_3:hover
+							{
+							background: linear-gradient(to top, #33ff99, #00cc66);
+							}
+
+						.m-menu__top-button_4
+							{
+							background: linear-gradient(to bottom, #ffa31a, #e68a00);
+							}
+							.m-menu__top-button_4:hover
+							{
+							background: linear-gradient(to top, #ffa31a, #e68a00);
+							}
+
+						.m-menu__top-button_5
+							{
+							background: linear-gradient(to bottom, #ff8c1a, #cc6600);
+							}
+							.m-menu__top-button_5:hover
+							{
+							background: linear-gradient(to top, #ff8c1a, #cc6600);	
+							}
+
+						.m-menu__top-button_6
+							{
+							background: linear-gradient(to bottom, #ff704d, #e62e00);
+							}
+							.m-menu__top-button_6:hover
+							{
+							background: linear-gradient(to top, #ff704d, #e62e00);
+							}
+							
+			.l-about
+				{
+
+				}
+				.l-about-inner 
+					{
+					position: absolute;
+					margin: 50px 0px 0px 30px;
+					color: white;
+					opacity: .9;
+					}
+					.b-about__title	
+						{
+						padding: 20px;
+						background-color: #000;
+						font-size: 22px;
+						font-weight: bold;
+						line-height: 120%;						
+						}
+
+					.b-about__title-text
+						{
+						padding: 15px;
+						background-color: #0cf;
+						font-size: 12px;
+						line-height: 150%;
+						}
+
+					.b-main__button-wrap
+						{
+						padding-top: 10px;
+						font-weight: bold;
+						}
+
+						.b-main__button
+							{
+							display: block;
+							width: 220px;
+							height: 36px;
+							color: white;					
+							text-shadow: 0 1px 0 black;
+							line-height: 36px;
+							text-align: center;
+							text-decoration: none;
+							background-color: black;
+							border-radius: 7px;
+							font-size: 16px;
+							background: linear-gradient(to bottom, #666, #000);
+							}	
+							
+							.b-main__button:hover
+								{
+								background: linear-gradient(to top, #666, #000);
+								} 
+						
+/*			footer			*/
+		.l-footer
+			{
+			clear: both;
+			width: 927px;
+			height: 18px;
+			margin: 0 auto;
+			margin-top: -52px;
+			padding: 18px 0 15px 33px;
+			background: #676972;
+			border-radius: 5px 5px 0 0;
+			}
+	
